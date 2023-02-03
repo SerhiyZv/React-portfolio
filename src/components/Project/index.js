@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const ProjectList = () => {
 
-  const [photos] = useState([
+  const [] = useState([
     {
       name: "Weather or Not",
       
@@ -42,7 +42,7 @@ const ProjectList = () => {
     <div>
         {/* only renders if isModalOpen is true, Modal changes state isModalOpen using closures */}
       <div className="flex-row">
-        {Photos.map((image, i) => (
+        {/* {Photos.map((image, i) => (
           <img
             //   incremental naming of images using i
             //src={require(`../../assets/small/${i}.jpg`)}
@@ -51,7 +51,7 @@ const ProjectList = () => {
             // NEED key value, a unique string
             key={image.name}
           />
-        ))}
+        ))} */}
       </div>
     </div>
   );
