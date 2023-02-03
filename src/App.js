@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import About from "./components/About";
 import Navigation from "./components/Navigation";
 import Project from "./components/Project";
 import Header from "./components/Header";
@@ -7,21 +8,32 @@ import ContactForm from "./components/Contact";
 import './App.css';
 
 function App() {
+  // initial value of contactSelected is false, prevent ContactForm from showing initially
+  // Gallery and About displays instead
+  const [contactSelected, setContactSelected] = useState(false);
+
+  const [categories] = useState([
+    {
+      // key is often parentheses
+      name: "About me",
+      description:
+        "Hi, my name is Serhiy and I am a junior developer with a background in Quality Assurance Engineer.",
+    },
+    { name: "Porfolio", description: "Snapshots of my work, take a look!" },
+    { name: "Contact", description: "I will try my best to contact you within 24 hours." },
+    {
+      name: "Resume",
+      description: "Full-stack proficiencies",
+    },
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <About></About>
+
     </div>
   );
 }
