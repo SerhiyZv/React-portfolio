@@ -5,7 +5,9 @@ import Project from "./components/Project";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ContactForm from "./components/Contact";
-import './App.css';
+import Resume from "./components/Resume";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   // initial value of contactSelected is false, prevent ContactForm from showing initially
@@ -19,8 +21,14 @@ function App() {
       description:
         "Hi, my name is Serhiy and I am a junior developer with a background in Quality Assurance Engineer.",
     },
-    { name: "Porfolio", description: "Snapshots of my work, take a look!" },
-    { name: "Contact", description: "I will try my best to contact you within 24 hours." },
+    { 
+      name: "Portfolio",
+       description: "Snapshots of my work, take a look!" 
+    },
+    { 
+      name: "Contact",
+       description: "I will try my best to contact you within 24 hours."
+    },
     {
       name: "Resume",
       description: "Full-stack proficiencies",
@@ -30,10 +38,30 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div className="App">
-      
-      <About></About>
-
+    <div>
+      <Header>
+        <Navigation
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Navigation>
+      </Header>
+      <main>
+        <div>
+          {!contactSelected ? (
+            <>
+              <About></About>
+              <Project></Project>
+              <Resume></Resume>
+            </>
+          ) : (
+            <ContactForm></ContactForm>
+          )}
+        </div>
+      </main>
+      <Footer></Footer>
     </div>
   );
 }
