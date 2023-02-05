@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Header(props) {
-const { contactSelected, setContactSelected } = props;
+  // const [categories] = useState([
+  //   { name: "Porfolio" },
+  //   {
+  //     name: "Contact",
+  //   },
+  //   {
+  //     name: "Resume",
+  //   },
+  // ]);
+
+  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
 
   return (
     <header>
