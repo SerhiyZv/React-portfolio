@@ -31,7 +31,7 @@ function Nav(props) {
             // as long as ${currentCategory.name === category.name, navActive will be returned
             return (
                 <li
-                key={category}
+                key={category.name}
                 >
                 <a
                  href={"#" + category.name.toLowerCase()}
