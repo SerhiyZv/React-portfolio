@@ -12,14 +12,14 @@ function Footer() {
         <a href="mailto:skiev31@gmail.com">
           <FaEnvelope />
         </a>
-        <a href="https://github.com/SerhiyZv">
+        <a href="https://github.com/SerhiyZv" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/SerhiyZv/">
+        <a href="https://www.linkedin.com/in/SerhiyZv/" target="_blank" rel="noreferrer">
           <FaLinkedin />
         </a>
         {/* <FontAwesomeIcon icon={faCoffee} /> */}
-        <a href="https://stackoverflow.com/users/17373308">
+        <a href="https://stackoverflow.com/users/17373308" target="_blank" rel="noreferrer">
           <FaStackOverflow />
         </a> 
         </div>       

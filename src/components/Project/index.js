@@ -9,6 +9,7 @@ const Projects = ({ singleProject }) => {
       <div className="flex-row">
       <a href={singleProject.deployedLink}>{singleProject.title}</a>
       <a href={singleProject.github}>GitHub repo</a>
+      <br></br>
       <hr></hr>
           <img
             //   incremental naming of images using i
