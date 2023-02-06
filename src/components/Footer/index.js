@@ -6,7 +6,7 @@ function Footer() {
 
   return (
 
-    <IconContext.Provider value={{ size:"3em", style : { marginLeft: "4rem", marginBottom: "2rem" } }}>
+    <IconContext.Provider value={{ size:"3em", style : { marginLeft: "15rem", marginBottom: "2rem" } }}>
     <footer>
         <div style={{ justifyContent: "space-evenly"}}>
         <a href="mailto:skiev31@gmail.com">

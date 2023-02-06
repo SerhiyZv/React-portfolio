@@ -5,9 +5,10 @@ function About() {
     return(
         <section className="my-5">
            <h1 id="about">About me</h1>
-            <img src={PortfolioImage} className="my-2" style={{ width: "30%", alignContent: "flex-start" }} alt="cover" ></img>
+            
             <h6 style={{ width: "100%", alignItems: "center" }} id="about">Hi there! My name is Serhiy and I'm a web developer 
             with a background as Quality Assurance Engineer.</h6>
+            <img src={PortfolioImage} className="my-2" style={{ width: "30%", alignContent: "flex-start" }} alt="cover" ></img>
             <div>
             <h2>My Story.</h2> 
             <div>Since I was a young child, I have always had an obsession with mountains and travelling.
