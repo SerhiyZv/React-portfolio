@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "../Navigation";
 
 function Header(props) {
@@ -27,7 +27,9 @@ function Header(props) {
             </a>
         </h2>
 
-        <Nav />
+        <Nav  categories= {props.categories} 
+            page={props.page}
+            setPage={props.setPage}/>
     </header>
   );
 }
