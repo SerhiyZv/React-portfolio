@@ -58,12 +58,12 @@ function ContactForm() {
   // JSX DOM elements
   return (
     <section>
-      <h1 data-testid="h1tag">Contact Me!</h1>
-      <h5>Email: skiev31@gmail.com</h5>
+      <h1 data-testid="h1tag">Please reach me here!</h1>
+      <a href="mailto:skiev31@gmail.com">skiev31@gmail.com</a>
       <br></br>
       <h1 data-testid="h1tag">Leave a Message</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        {/* <div>
           <label htmlFor="name">Name: </label>
           <input
             type="text"
@@ -89,7 +89,7 @@ function ContactForm() {
             defaultValue={message}
             onBlur={handleChange}
           />
-        </div>
+        </div> */}
         {/* if(errorMessage) {
             <div>
                 <p className="error-text">{errorMessage}</p>

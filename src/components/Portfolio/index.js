@@ -15,49 +15,65 @@ const Portfolio = (singleProject) => {
   const projectList = [
     {
       title: "Tech Blog",
+      summary: "",
       image: techBlog,
+      technologies: "",
       deployedLink: "https://serhiytechblog.herokuapp.com/",
       github: "https://github.com/SerhiyZv/Tech-blog",
     },
     {
         title: "Library",
+        summary: "",
         image: library,
+        technologies: "",
         deployedLink: "https://project2library.herokuapp.com/",
         github: "https://github.com/SerhiyZv/Project2_Library",
     },
     {
         title: "Memes God",
+        summary: "",
         image: memes,
+        technologies: "",
         deployedLink: "https://yaaseenk.github.io/Team-Project-1/",
         github: "https://github.com/YaaseenK/Team-Project-1",
     },
     {
         title: "Password Generator",
+        summary: "",
         image: passGen,
+        technologies: "",
         deployedLink: "https://serhiyzv.github.io/password-generator-javascript/",
         github: "https://github.com/SerhiyZv/password-generator-javascript",
     },
     {
         title: "Weather Dashboard",
+        summary: "",
         image: weather,
+        technologies: "",
         deployedLink: "https://serhiyzv.github.io/Weather-Dashboard/",
         github: "https://github.com/SerhiyZv/Weather-Dashboard",
     },
     {
         title: "Test Editor",
+        summary: "",
         image: jast,
+        technologies: "",
         deployedLink: "https://text-editor-sz.herokuapp.com/",
         github: "https://github.com/SerhiyZv/Text-Editor",
     },
     {
         title: "Work Day Scheduler",
+        summary: "",
         image: workDay,
+        technologies: "",
         deployedLink: "https://serhiyzv.github.io/work-day-scheduler/",
         github: "https://github.com/SerhiyZv/work-day-scheduler",
     },
     {
         title: "Team Profile Generator",
+        summary: "",
         image: teamProf,
+        technologies: "",
         deployedLink: "https://github.com/SerhiyZv/Team-Profile-Generator",
         github: "https://github.com/SerhiyZv/Team-Profile-Generator",
     },
@@ -66,14 +82,10 @@ const Portfolio = (singleProject) => {
   return (
     <div key={singleProject.title}>
       <div className="flex-row col-1">
-          <h1>Projects</h1>
-          <br></br>
-          <div>
-          {projectList.map((singleProject) => (
+            {projectList.map((singleProject) => (
             <Projects singleProject={singleProject}/>
         ))}
-        </div>
-      </div>
+       </div>
     </div>
   );
 };
