@@ -6,9 +6,9 @@ function Footer() {
 
   return (
 
-    <IconContext.Provider value={{ size:"3em", style : { marginLeft: "4rem", marginBottom: "2rem", alignItems:"center"} }}>
+    <IconContext.Provider value={{ size:"3em", style : { marginLeft: "4rem", marginBottom: "2rem" } }}>
     <footer>
-        <div>
+        <div style={{ justifyContent: "space-evenly"}}>
         <a href="mailto:skiev31@gmail.com">
           <FaEnvelope />
         </a>
