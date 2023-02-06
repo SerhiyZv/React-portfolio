@@ -1,9 +1,12 @@
 import React from "react";
+import resumePDF from "../../assets/resumePDF.pdf";
 
 function Resume() {
     return(
         <section className="my-5">
-            <h2 id="resume">Download my resume.</h2>
+            <a href={resumePDF}>
+                <h3>View my resume here!</h3>
+            </a>
             <h1 id="resume">Front-end Proficiencies</h1>
             <li>HTML</li>
             <li>CSS</li>
