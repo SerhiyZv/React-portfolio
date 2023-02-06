@@ -4,24 +4,27 @@ import React from "react";
 const Projects = ({ singleProject }) => {
 
   return (
-    <div>
-        
-      <div className="flex-row">
+    <div key={singleProject.title}>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    ></link>
+
+    <div className="flex-row card card-body" style={{ width: "35rem" }}>
       <a href={singleProject.deployedLink}>{singleProject.title}</a>
-      <a href={singleProject.github}>GitHub repo</a>
-      <br></br>
-      <hr></hr>
-          <img
-            //   incremental naming of images using i
-            //src={require(`../../assets/small/${i}.jpg`)}
-            src={singleProject.image}
-            alt={singleProject.title}
-            className="img-thumbnail mx-1"
-            // NEED key value, a unique string
-            key={singleProject.title}
-          />
-       </div>
-      <div>
+
+      <img
+        src={singleProject.image}
+        alt={singleProject.title}
+        className="img-thumbnail mx-1"
+        // // NEED key value, a unique string
+        key={singleProject.title}
+      />
+      <a href={singleProject.github} className="card-text">
+        GitHub Link
+      </a>
       </div>
     </div>
   );
