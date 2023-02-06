@@ -1,19 +1,17 @@
 import React from "react";
 import FontAwesome from 'react-fontawesome';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
 
   return (
 
     <footer>
-        <a href="/" className="fa-solid fa-envelope">
-          🤵
-          Serhiy Zvedenyuk
-        </a>
-        <FontAwesomeIcon icon={faCoffee} />
+        <a href="skiev31@gmail.com" className="fa-solid fa-envelope">
         <FontAwesomeIcon icon="fa-solid fa-envelope" />
+        </a>
+        {/* <FontAwesomeIcon icon={faCoffee} /> */}
     </footer>
   );
 }
