@@ -10,7 +10,7 @@ import jast from "../../assets/img/JAST.jpg";
 import workDay from "../../assets/img/WorkDayScheduler.jpg";
 import teamProf from "../../assets/img/TeamProfileGenerator.jpg";
 
-const Portfolio = () => {
+const Portfolio = (singleProject) => {
 
   const projectList = [
     {
@@ -64,13 +64,11 @@ const Portfolio = () => {
 ];
 
   return (
-    <div>
+    <div key={singleProject.title}>
       <div className="flex-row">
           <h1>Projects</h1>
           <br></br>
-      </div> 
-      <div>
-        {projectList.map((singleProject) => (
+          {projectList.map((singleProject) => (
             <Projects singleProject={singleProject}/>
         ))}
       </div>
