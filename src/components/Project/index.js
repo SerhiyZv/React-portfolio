@@ -7,17 +7,13 @@ const Projects = ({ singleProject }) => {
 
   return (
     <Card
-    style={{
-      width: "25rem",
-      margin: "20px 10px 20px 10px", backgroundColor: "#a2c7e5" 
-    }}
-    key={singleProject.title} className="col-4"
-  >
+    style={{ width: "20rem", margin: "20px 50px 20px 10px", backgroundColor: "#a2c7e5" }}
+    key={singleProject.title} className="col-3" >
 
     <Card.Title style={{ margin: "15px", fontSize: "27px", color: "#094067"}}>
       {singleProject.title}
     </Card.Title>
-    <Card.Text className="mb-2" style={{ fontSize: "15px" }}>{singleProject.summary}</Card.Text>
+    <Card.Text className="mb-2 test-muted" style={{ fontSize: "15px", margin: "20px 0px 20px 10px" }}>{singleProject.summary}</Card.Text>
     <Card.Img
       variant="top"
       src={singleProject.image}
@@ -47,41 +43,8 @@ const Projects = ({ singleProject }) => {
           <FaExternalLinkAlt style={{ fontSize: "25px" }}/>
         </a>
       </Card.Footer>
-
-       {/* <div>
-        <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous"
-        ></link>
-        <div
-          className="flex-row card card-body"
-          style={{
-            width: "35rem",
-            marginBottom: "2rem",
-            backgroundColor: "#a2c7e5",
-            fontSize: "20px", display: "flex", flexDirection: "row"
-          }}
-        >
-          <h1>{singleProject.title}</h1>
-          <div>{singleProject.summary}</div>
-          <a href={singleProject.deployedLink}>
-            {" "}
-            <img
-              src={singleProject.image}
-              alt={singleProject.title}
-              className="img-thumbnail mx-1"
-            />
-            <FaExternalLinkAlt />
-          </a>
-          <a href={singleProject.github} className="card-text">
-            <FaGithub />
-          </a>
-          <div>Built with: {singleProject.technologies}</div>
-        </div>
-      </div>  */}
-   </Card>
+      
+    </Card>
       
   );
 };
