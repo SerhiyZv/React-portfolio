@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-portfolio/static/css/main.0dc72cf8.css",
+    "main.js": "/React-portfolio/static/js/main.7395cb98.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Library.jpg": "/React-portfolio/static/media/Library.939f17f6baf290d90081.jpg",
+    "static/media/Weather.jpg": "/React-portfolio/static/media/Weather.7336929cec1bf6a072dc.jpg",
+    "static/media/Memes.jpg": "/React-portfolio/static/media/Memes.cfb6cad088d5864f3fad.jpg",
+    "static/media/DevResume.pdf": "/React-portfolio/static/media/DevResume.e5d7426811f6889a8dec.pdf",
+    "static/media/PassGen.jpg": "/React-portfolio/static/media/PassGen.200fffca86e5bc3f7f19.jpg",
+    "static/media/WorkDayScheduler.jpg": "/React-portfolio/static/media/WorkDayScheduler.ee5df59294ac046838f6.jpg",
+    "static/media/TeamProfileGenerator.jpg": "/React-portfolio/static/media/TeamProfileGenerator.549ecdc05b7dda73a0ab.jpg",
+    "static/media/TechBlog.jpg": "/React-portfolio/static/media/TechBlog.80b91586fba61cc9d99f.jpg",
+    "static/media/PortfolioImage.jpg": "/React-portfolio/static/media/PortfolioImage.c7ec0ac5dfddd41574f3.jpg",
+    "static/media/JAST.jpg": "/React-portfolio/static/media/JAST.fd72e56b294d4c32fa76.jpg",
+    "index.html": "/React-portfolio/index.html",
+    "main.0dc72cf8.css.map": "/React-portfolio/static/css/main.0dc72cf8.css.map",
+    "main.7395cb98.js.map": "/React-portfolio/static/js/main.7395cb98.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dc72cf8.css",
+    "static/js/main.7395cb98.js"
+  ]
+}
