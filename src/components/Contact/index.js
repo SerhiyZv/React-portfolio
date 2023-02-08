@@ -13,7 +13,7 @@ function ContactForm() {
   // Hook that manages email error message
   const [errorMessage, setErrorMessage] = useState("");
   // destructure formState obj into its properties
-  const { name, email, message } = formState;
+//   const { name, email, message } = formState;
 
   function handleSubmit(e) {
     e.preventDefault();

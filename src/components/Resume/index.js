@@ -22,7 +22,7 @@ import {
   } from "react-icons/si";
   import { Container, Row, Col } from "react-bootstrap";
 
-function Skills() {
+function Resume() {
     return(
       <Container className="container my-5">
       <h1>Proficiencies</h1>
@@ -122,4 +122,4 @@ function Skills() {
     );
 }
 
-export default Skills;
+export default Resume;
