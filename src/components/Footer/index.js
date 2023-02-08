@@ -11,7 +11,7 @@ function Footer() {
     <IconContext.Provider value={{ size:"3em" }}>
     <footer>
         <Row>
-        <Col md={{ span: 4, offset: 10 }}>
+        <Col md={{ span: 4, offset: 10 }} style={{width: "20rem", marginBottom: "5rem"}}>
         <a href="mailto:skiev31@gmail.com">
           <FaEnvelope />
         </a>

@@ -30,13 +30,11 @@ function Nav(props) {
             // SHORT CIRCUIT EXPRESSSION
             // as long as ${currentCategory.name === category.name, navActive will be returned
             return (
-                <li
-                key={category.name}
-                >
+                <li key={category.name}>
                 <a
                  href={"#" + category.name.toLowerCase()}
                  onClick={() => {
-                   props.setPage(category.name)
+                   props.setPage(category.name);
                  }}
                  className={`mx-1 ${
                    props.page === category.name && "navActive"

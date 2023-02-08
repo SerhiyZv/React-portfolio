@@ -41,7 +41,7 @@ function About() {
         to alleviate the need for ease of control and access to medical resources,
         and create a better Case manager application to control doctors and nurses
          and get feedback from users with more health-minded lifestyles in workplaces. 
-         I'd be happy to connect and innovate with the user in mind!
+         Let's connect- I'm excited to learn a new technology and innovate with the user in mind!
         </h6>
         <br></br>
         <br></br>

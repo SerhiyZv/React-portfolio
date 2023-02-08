@@ -7,7 +7,7 @@ const Projects = ({ singleProject }) => {
 
   return (
     <Card
-    style={{ width: "25rem", margin: "20px 50px 20px 10px", backgroundColor: "#a2c7e5" }}
+    style={{ width: "60rem", margin: "20px 50px 20px 10px", backgroundColor: "#a2c7e5" }}
     key={singleProject.title} className="col-3" >
 
     <Card.Title style={{ margin: "15px", fontSize: "27px", color: "#094067"}}>
@@ -42,11 +42,7 @@ const Projects = ({ singleProject }) => {
         >
           <FaExternalLinkAlt style={{ fontSize: "25px" }}/>
         </a>
-        <br></br>
-        <br></br>
-        <br></br>
-      </Card.Footer>
-      
+     </Card.Footer>
     </Card>
       
   );
