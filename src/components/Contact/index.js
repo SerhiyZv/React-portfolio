@@ -58,11 +58,11 @@ function ContactForm() {
   // JSX DOM elements
   return (
     <section>
-      <h1 data-testid="h1tag">Please reach me here!</h1>
+      <h1 data-testid="h1tag">Please reach me</h1>
       <a href="mailto:skiev31@gmail.com">skiev31@gmail.com</a>
-      <br></br>
+      {/* <br></br>
       <h1 data-testid="h1tag">Leave a Message</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" onSubmit={handleSubmit}> */}
         {/* <div>
           <label htmlFor="name">Name: </label>
           <input
@@ -95,7 +95,7 @@ function ContactForm() {
                 <p className="error-text">{errorMessage}</p>
             </div>
         } */}
-        {errorMessage && (
+        {/* {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
@@ -103,7 +103,7 @@ function ContactForm() {
         <button data-testid="button" type="submit">
           Submit
         </button>
-      </form>
+      </form> */}
     </section>
   );
 }

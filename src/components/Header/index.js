@@ -21,10 +21,7 @@ function Header(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
         <h2>
             <a href="/React-Portfolio">
-            <span role="img" aria-label="camera">
-             🤵
-            </span>
-             Serhiy Zvedenyuk
+            Serhiy Zvedenyuk
             </a>
         </h2>
 
