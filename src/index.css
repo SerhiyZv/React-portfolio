@@ -32,7 +32,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -80,7 +80,7 @@ p {
 a {
   color: var(--tertiary);
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 a:hover {
